@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="boilerplateCSS.css">
+  <link rel="stylesheet" href="index.css">
+
+  <title>Sound Clicker</title>
+
+</head>
+
+<body>
+  <div class="header">
+    <h1>Welcome to Sound Clicker!</h1>
+    <h2>Click an image, or hit corresponding key, to hear a sound.... </h2>  
+  </div>
+
+
+  <div role="main" class="container">
+
+    <div class="image " data-key="65">
+      <img class="imageId" src="./images/alien-bug.png" alt="alien head icon">
+      <kbd>A</kbd>
+    </div>
+
+    <div class="image " data-key="83">
+        <img class="imageId" src="./images/forest.svg" alt="forest icon">
+        <kbd>S</kbd>
+      </div>
+    <div class="image " data-key="68">
+      <img class="imageId" src="./images/lyre.png" alt="lyre icon">
+      <kbd>D</kbd>
+    </div>
+
+    <div class="image " data-key="70">
+        <img class="imageId" src="./images/magic-swirl.png" alt="magic swirl icon">
+        <kbd>F</kbd>
+      </div>
+
+    <div class="image " data-key="71">
+      <img class="imageId" src="./images/ringing-bell.png" alt="ringing bell icon">
+      <kbd>G</kbd>
+    </div>
+
+    <div class="image " data-key="72">
+        <img class="imageId" src="./images/spell-book.png" alt="spell book icon">
+        <kbd>H</kbd>
+      </div>
+
+    <div class="image " data-key="74">
+        <img class="imageId" src="./images/wizard-staff.png" alt="wizard staff icon">
+        <kbd>J</kbd>
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/245000__robinhood76__05174-magic-bouncing-bolt.wav"></audio>
+  <audio data-key="83" src="sounds/246150__robinhood76__05152-twisted-spell-explosion.wav"></audio>
+  <audio data-key="68" src="sounds/178318__robinhood76__04099-magic-string-spell.wav"></audio>
+  <audio data-key="70" src="sounds/333787__robinhood76__06250-dizzy-bolt-spell.wav"></audio>
+  <audio data-key="71" src="sounds/437488__robinhood76__07187-fairy-tales-message-ding.wav"></audio>
+  <audio data-key="72" src="sounds/342432__robinhood76__06564-fairy-magic-wand.wav"></audio>
+  <audio data-key="74" src="sounds/329323__robinhood76__06130-disappear-magic-blink.wav"></audio>
+
+<script src="index.js"></script>
+
+</body>
+</html>
+
